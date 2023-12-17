@@ -42,13 +42,7 @@ public class Router {
     public double getFirmwareVersion() {
         return firmwareVersion;
     }
-
-    // Method to upgrade firmware
-    public void upgradeFirmware(double newVersion) {
-        this.firmwareVersion = newVersion;
-        System.out.println("Firmware upgraded to version " + newVersion);
-    }
-
+    
     // Method to display router information
     public void displayRouterInfo() {
         System.out.println("Router Information:");
